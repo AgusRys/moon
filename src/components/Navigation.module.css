@@ -1,0 +1,22 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* margin: auto; */
+    align-items: center;
+    height: 3em;
+    border-radius: 60px 60px 0px 0px;
+}
+
+
+
+.active {
+    border-bottom: 1.2px solid white;
+    color: white;
+    text-decoration: none;
+}
+
+.inactive {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,15 @@
+.wrapper {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    justify-content: space-between;
+    border-radius: 60px;
+    /* border-radius: 60px 60px 0px 0px; */
+    background: #282c34;
+    box-shadow: 30px -30px 60px #15171b,
+        -30px 30px 60px #3b414d;
+    height: 700px;
+    width: 400px;
+    color: white;
+}
