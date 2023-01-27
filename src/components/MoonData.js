@@ -24,7 +24,7 @@ const MoonData = () => {
 
     // console.log(lunarAgePercent)
     
-    const phaseEmoji = Moon.lunarPhaseEmoji()	
+    // const phaseEmoji = Moon.lunarPhaseEmoji()	
    //const lunarAge = Moon.lunarAge()	
     // const isWaxing = Moon.isWaxing()	
     // const isWaning = Moon.isWaning()
