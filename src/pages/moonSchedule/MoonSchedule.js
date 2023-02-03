@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import MoonPhase from '../UI/MoonPhase';
+import MoonPhase from '../../components/MoonPhase';
 import { Moon } from 'lunarphase-js';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -14,6 +14,7 @@ function MoonSchedule() {
 
     const getDate = (selectedDate) => {
         console.log(selectedDate)
+        console.log(Moon.lunarAgePercent(selectedDate))
         setDate(new Date(selectedDate));
         setPhase(Moon.lunarPhase(new Date(selectedDate)));
     }

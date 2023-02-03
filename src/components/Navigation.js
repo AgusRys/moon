@@ -9,6 +9,7 @@ function Navigation() {
       <ToggleButton/>
       <NavLink className={({ isActive }) => isActive ? styles.active : styles.inactive} to="/" >Home</NavLink>
       <NavLink className={({ isActive }) => isActive ? styles.active : styles.inactive} to="/search">Lupa</NavLink> 
+      <NavLink className={({ isActive }) => isActive ? styles.active : styles.inactive} to="/upcoming">Lunas</NavLink> 
     </div>
   )
   // Meridiano 
