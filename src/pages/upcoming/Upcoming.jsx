@@ -1,5 +1,5 @@
 import MoonPhase from "../../components/MoonPhase";
-import { Moon } from "lunarphase-js";
+import { Moon, LunarPhase } from "lunarphase-js";
 import { useState, useEffect } from "react";
 
 const Upcoming = () => {
@@ -22,11 +22,19 @@ const Upcoming = () => {
 
         let val = [];
 
+        let date = new Date()
+
         while(contW < 10){
             
-            console.log(contW ++)
+            contW ++
+            //console.log(contW ++)
 
-            console.log(Moon.lunarAge())
+            //console.log(Moon.lunarAge())
+            //console.log("LunarPhase", LunarPhase)
+            //console.log("date", date)
+            console.log("lunarPhase", Moon.lunarPhase(date), contW, date)
+            date.setDate(date.getDate() + 1 )
+            //console.log("date + 1 day", date)
             
 
         }
