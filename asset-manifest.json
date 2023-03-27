@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/moon/static/css/main.e0002f56.css",
-    "main.js": "/moon/static/js/main.05937709.js",
+    "main.js": "/moon/static/js/main.4944fe97.js",
     "static/js/787.5d3682f3.chunk.js": "/moon/static/js/787.5d3682f3.chunk.js",
     "index.html": "/moon/index.html",
     "main.e0002f56.css.map": "/moon/static/css/main.e0002f56.css.map",
-    "main.05937709.js.map": "/moon/static/js/main.05937709.js.map",
+    "main.4944fe97.js.map": "/moon/static/js/main.4944fe97.js.map",
     "787.5d3682f3.chunk.js.map": "/moon/static/js/787.5d3682f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0002f56.css",
-    "static/js/main.05937709.js"
+    "static/js/main.4944fe97.js"
   ]
 }
