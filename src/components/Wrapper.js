@@ -11,7 +11,7 @@ const Wrapper = () => {
         <div className={styles.wrapper}>
             <Navigation></Navigation>
             <Routes>
-                <Route path="/moon/" element={<MoonData />} />
+                <Route path="/moon" element={<MoonData />} />
                 <Route path='/search' element={<MoonSchedule />} />
                 <Route path='/upcoming' element={ <Upcoming/>} />
             </Routes>
