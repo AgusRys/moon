@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
 import styles from './MoonData.module.css'
-import Distance from '../assets/Distance'
-import Schedule from '../assets/Schedule'
-import Age from '../assets/Age'
+import Distance from '../../assets/Distance'
+import Schedule from '../../assets/Schedule'
+import Age from '../../assets/Age'
 import { Moon } from 'lunarphase-js';
-import MoonPhase from '../UI/MoonPhase'
+import MoonPhase from '../../components/MoonPhase'
 
 
 const MoonData = () => {
@@ -34,7 +34,9 @@ const MoonData = () => {
 
     return ( 
         <> 
+            
             <MoonPhase phase={phase}/>
+
             <div className={styles.container}>    
                 <div className={styles['data-container']}>
                     <div className={`${styles.tooltip} ${styles['tooltip-1']}`}>Age in Earth days through the current lunar cycle, equivalent to 29.53059 Earth days, based on Mean Synodic Month, 2000 AD mean solar days.</div>

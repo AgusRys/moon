@@ -7,8 +7,9 @@ function Navigation() {
   return (
     <div className={styles.navigation} >
       <ToggleButton/>
-      <NavLink className={({ isActive }) => isActive ? styles.active : styles.inactive} to="/" >Home</NavLink>
-      <NavLink className={({ isActive }) => isActive ? styles.active : styles.inactive} to="/search">Lupa</NavLink> 
+      <NavLink className={({ isActive }) => isActive ? styles.active : styles.inactive} to="moon/" >Home</NavLink>
+      <NavLink className={({ isActive }) => isActive ? styles.active : styles.inactive} to="moon/search">Lupa</NavLink> 
+      <NavLink className={({ isActive }) => isActive ? styles.active : styles.inactive} to="moon/upcoming">Lunas</NavLink> 
     </div>
   )
   // Meridiano 

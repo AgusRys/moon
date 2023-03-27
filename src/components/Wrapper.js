@@ -1,7 +1,8 @@
 import React from 'react'
 import {Route, Routes} from 'react-router-dom'
-import MoonSchedule from '../pages/MoonSchedule';
-import MoonData from './MoonData';
+import MoonSchedule from '../pages/moonSchedule/MoonSchedule';
+import MoonData from '../pages/moonData/MoonData';
+import Upcoming from '../pages/upcoming/Upcoming';
 import Navigation from './Navigation';
 import styles from './Wrapper.module.css';
 
@@ -10,8 +11,9 @@ const Wrapper = () => {
         <div className={styles.wrapper}>
             <Navigation></Navigation>
             <Routes>
-                <Route path="/" element={<MoonData />} />
-                <Route path='/search' element={<MoonSchedule />} />
+                <Route path="moon/" element={<MoonData />} />
+                <Route path='moon/search' element={<MoonSchedule />} />
+                <Route path='moon/upcoming' element={ <Upcoming/>} />
             </Routes>
         </div>
     )
