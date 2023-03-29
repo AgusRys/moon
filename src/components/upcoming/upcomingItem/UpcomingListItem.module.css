@@ -1,0 +1,8 @@
+.UpcomingListItem{
+    background-color: #fdfdfd;
+    color: black;
+    font-weight: 500;
+    border-radius: 30px;
+    height: 3em;
+    width: 300px;
+}
